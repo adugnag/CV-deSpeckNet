@@ -11,8 +11,7 @@ To run the scripts locally, you need the keras-complex library (https://pypi.org
 
 The keras-complex library and its documentation can be found in https://github.com/JesperDramsch/keras-complex
 
-##REFERENCE
-
+REFERENCE
 <a id="1">[1]</a> 
 A. G. Mullissa, C. Persello and J. Reiche, (2021). 
 Despeckling Polarimetric SAR Data Using a Multistream Complex-Valued Fully Convolutional Network
