@@ -5,9 +5,11 @@ A polarimetric synthetic aperture radar (PolSAR) sensor is able to collect image
 
 The pre-print for the paper describing cv-despecknet can be found here (https://arxiv.org/abs/2103.07394)
 
+In this implementation, both the input noisy images and their reference images should be in log form. Therefore, in this implementation, the noisy image reconstruction doesnot need to be converted to the linear scale by taking the matrix exponent, This is the only difference between this implementation and the one used in the paper. 
+
 ![paper6_flowchart2](https://user-images.githubusercontent.com/48068921/112758977-4906ba00-8ff1-11eb-8e08-ce3cab3aaad7.png)
 
-To run the scripts locally, you need the keras-complex library (https://pypi.org/project/keras-complex/) along with keras==2.23 and tensorflow-gpu==1.13.1 to be installed. There is a requirements text file included. For usage in google colab a folder named complexnn which should be uploaded to your google drive. 
+To run the scripts locally, you need to install the keras-complex library (https://pypi.org/project/keras-complex/) along with keras==2.23 and tensorflow-gpu==1.13.1. There is a requirements text file included. For usage in google colab a folder named complexnn which should be uploaded to your google drive. 
 
 The keras-complex library and its documentation can be found in https://github.com/JesperDramsch/keras-complex
 
