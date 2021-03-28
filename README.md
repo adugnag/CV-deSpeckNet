@@ -21,7 +21,7 @@ A. G. Mullissa, C. Persello and J. Reiche, (2021).
 Despeckling Polarimetric SAR Data Using a Multistream Complex-Valued Fully Convolutional Network
 IEEE Geoscience and Remote Sensing Letters, 1-5, doi:10.1109/LGRS.2021.3066311.
 
-@ARTICLE{9386223,  
+@ARTICLE{mullissacvdespecknet2021,  
   author={A. G. {Mullissa} and C. {Persello} and J. {Reiche}},  
   journal={IEEE Geoscience and Remote Sensing Letters},   
   title={Despeckling Polarimetric SAR Data Using a Multistream Complex-Valued Fully Convolutional Network},   
