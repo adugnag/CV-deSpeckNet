@@ -1,7 +1,7 @@
 """
 Version: v1.2
 Date: 2021-01-12
-Author: Mullissa A.
+Author: Mullissa A.G.
 Description: This script contains helper functions that are used in synthesizing data tensors.
 """
 
@@ -11,9 +11,6 @@ import os
 import cv2
 import numpy as np
 import tifffile
-
-
-#from multiprocessing import Pool
 
 
 patch_size, stride = 40, 9
