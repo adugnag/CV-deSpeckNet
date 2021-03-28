@@ -13,8 +13,21 @@ To run the scripts locally, you need to install the keras-complex library (https
 
 The keras-complex library used in this paper and its documentation can be found in https://github.com/JesperDramsch/keras-complex
 
+If you use this implementation please cite our work as follows
+
 REFERENCE
 <a id="1">[1]</a> 
 A. G. Mullissa, C. Persello and J. Reiche, (2021). 
 Despeckling Polarimetric SAR Data Using a Multistream Complex-Valued Fully Convolutional Network
 IEEE Geoscience and Remote Sensing Letters, 1-5, doi:10.1109/LGRS.2021.3066311.
+
+@ARTICLE{9386223,
+  author={A. G. {Mullissa} and C. {Persello} and J. {Reiche}},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Despeckling Polarimetric SAR Data Using a Multistream Complex-Valued Fully Convolutional Network}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/LGRS.2021.3066311}}
+
