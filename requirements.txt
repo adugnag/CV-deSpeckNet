@@ -1,0 +1,4 @@
+numpy==1.16.1
+tensorflow-gpu==1.13.1
+keras==2.2.4
+keras-complex0.1.3 
