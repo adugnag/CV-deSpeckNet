@@ -17,8 +17,8 @@ If you use this implementation please cite our work as follows
 
 REFERENCE
 <a id="1">[1]</a> 
-A. G. Mullissa, C. Persello and J. Reiche, (2021). 
-Despeckling Polarimetric SAR Data Using a Multistream Complex-Valued Fully Convolutional Network
+A. G. Mullissa, C. Persello and J. Reiche, (2021).   
+Despeckling Polarimetric SAR Data Using a Multistream Complex-Valued Fully Convolutional Network  
 IEEE Geoscience and Remote Sensing Letters, 1-5, doi:10.1109/LGRS.2021.3066311.
 
 @ARTICLE{mullissacvdespecknet2021,  
