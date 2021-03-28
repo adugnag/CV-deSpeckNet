@@ -15,8 +15,6 @@ The keras-complex library used in this paper and its documentation can be found 
 
 If you use this implementation please cite our work as follows
 
-REFERENCE  
-
 A. G. Mullissa, C. Persello and J. Reiche, (2021).   
 Despeckling Polarimetric SAR Data Using a Multistream Complex-Valued Fully Convolutional Network  
 IEEE Geoscience and Remote Sensing Letters, 1-5, doi:10.1109/LGRS.2021.3066311.
