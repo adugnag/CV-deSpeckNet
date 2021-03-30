@@ -22,7 +22,7 @@ batch_size = 128
 def gen_patches(file_name):
 
     # read image
-    img = tifffile.imread(file_name) #comment out when using RGB imaes
+    img = tifffile.imread(file_name) 
     img = np.array(img)
     h, w, d = img.shape
     patches = []
