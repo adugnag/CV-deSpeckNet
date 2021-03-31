@@ -20,6 +20,7 @@ batch_size = 128
 
 
 def gen_patches(file_name):
+    """ This function prepares patches using the parameters patch_size and stride"""
 
     # read image
     img = tifffile.imread(file_name) 
@@ -38,6 +39,7 @@ def gen_patches(file_name):
     return patches
 
 def make_dataTensor(data_dir,verbose=False):
+    """ This function prepares the data tensor from a given directory by using gen_patches function"""
     
     file_list = glob.glob(data_dir+'/*.tif')  # get name list of all .tif files
     # initrialize
@@ -56,6 +58,7 @@ def make_dataTensor(data_dir,verbose=False):
     return data
 
 def get_steps(data_dir, batch_size=128):
+    """ This function estimates the step per epoch in training the model from the given data tensor length"""
     if os.path.isfile(data_dir):
         noisy_files = [data_dir]
     else:
